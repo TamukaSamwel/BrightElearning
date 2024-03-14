@@ -1,0 +1,233 @@
+
+
+body {
+    background-color: antiquewhite;
+    background-image:url(Images/best.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ////////////////////      header section           //////////////////////////////////////////////////////////////*/
+.search-button {
+    width: 150px;
+    color: red;
+     background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    padding: 10px 90px ;
+    display: flex;
+    align-items: center;
+    /* border: 0;  */
+    border-radius: 50px;
+    cursor:pointer;
+    align-items: center;
+    
+    position:absolute;
+    left: 700px;
+    /* border: 0px;  */
+    /* border: 20px 20px 20px 20px; */
+}
+.search-button input{
+     border: 0px dotted black; 
+    background-color: ;
+    padding:10px 20px ;
+    
+}
+.search-button :focus{
+
+    outline: none;
+}
+/* .search-button:hover{
+    background-color: azure;
+
+} */
+header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 255, 234, 0);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(8, 45, 88);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 4px;
+    border: px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+h1{
+    position: absolute;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.863);
+    top: 75px;
+    left: 1%;
+    padding: 4px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+   
+}
+nav{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: rgba(137, 43, 226, 0.171);
+    top: 50px;
+    right: 30px;
+    font-size: 20px;
+    text-align: center;
+    /* position: fixed; */
+}   
+nav a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding:  15px;
+    position: relative;
+    top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+nav a:hover{
+    border: 3px solid rgb(8, 45, 88);
+    background-color: white;
+    color: rgb(8, 45, 88);
+    padding: 17px;
+    transition: 0.75s;
+}
+
+
+/* /////////////////////////     MIDDLE SECTION       ////////////////////////////// ////////////////////////////////*/
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* background-color: rgba(165, 42, 42, 0.116); */
+    top: 0px;
+}
+article{
+    width: 50%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.welcome {
+    font-weight: bold;
+    color:white ;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    left: 10px;
+
+
+}
+.lorem{
+    color: rgb(8, 45, 88);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+article a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 28px;
+    border:0px solid rgb(8, 45, 88);
+    background-color: rgb(8, 45, 88);
+    border-radius: 100px;
+    margin: 50px;
+    position: absolute;
+    top: 190px;
+}
+article a:hover{
+    color: black;
+    padding: 35px;
+    background-color: white;
+    transition: 0.25s;
+
+}
+
+/* /////////////////////////         FOOTER SECTION            ///////////////////////////////////////////////////////////// */
+footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+
+}
+footer div{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    height: 250px;
+    /* width: 33.33%; */
+    padding: 8px;
+    /* outline: 2px solid red; */
+    text-align: center;
+    margin: 0px 8px;
+    
+
+
+}
+.lowericons i{
+    color: rgb(0, 0, 0);
+}
+.lowericons p
+{
+    top: 120px;
+    color: rgb(8, 45, 88);
+}
+footer i{
+    top: 70px;
+}
+/* .certification{
+    background-color: rgb(8, 45, 88);
+    color: white;
+}  
+ .certification:hover{
+    background-color: rgb(225, 207, 226);
+    color: rgb(8, 45, 88);
+    position: relative;
+    top: -8px;
+    transition: 0.75s; 
+     padding-bottom: 35px ; */
+
+
+/* .library{
+    background-color: rgba(255, 255, 255);
+}
+.library:hover{
+    background-color: rgb(225, 207, 226);
+    color: rgb(8, 45, 88);
+    position: relative;
+    top: -8px;
+    transition: 0.75s;
+    /* padding-bottom: 35px ; */
+
+
+/* 
+.tutoring{
+    background-color: rgb(8, 45, 88);
+    color: white;
+} 
+.tutoring:hover{
+    background-color: rgb(225, 207, 226);
+    color: rgb(8, 45, 88);
+    position: relative;
+    top: -8px;
+    transition: 0.75s;
+     padding-bottom: 35px ;
+
+  */
